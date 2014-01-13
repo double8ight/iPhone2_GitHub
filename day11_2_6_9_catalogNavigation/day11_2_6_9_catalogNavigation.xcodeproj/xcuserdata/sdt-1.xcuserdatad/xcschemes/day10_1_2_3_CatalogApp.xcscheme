@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-               BuildableName = "day10_1_2_3_CatalogApp.app"
+               BuildableName = "day11_2_6_9_catalogNavigation.app"
                BlueprintName = "day11_2_6_9_catalogNavigation"
                ReferencedContainer = "container:day11_2_6_9_catalogNavigation.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0015BDA6187E7CB0007A96B4"
-               BuildableName = "day10_1_2_3_CatalogAppTests.xctest"
+               BuildableName = "day11_2_6_9_catalogNavigationTests.xctest"
                BlueprintName = "day11_2_6_9_catalogNavigationTests"
                ReferencedContainer = "container:day11_2_6_9_catalogNavigation.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-            BuildableName = "day10_1_2_3_CatalogApp.app"
+            BuildableName = "day11_2_6_9_catalogNavigation.app"
             BlueprintName = "day11_2_6_9_catalogNavigation"
             ReferencedContainer = "container:day11_2_6_9_catalogNavigation.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-            BuildableName = "day10_1_2_3_CatalogApp.app"
+            BuildableName = "day11_2_6_9_catalogNavigation.app"
             BlueprintName = "day11_2_6_9_catalogNavigation"
             ReferencedContainer = "container:day11_2_6_9_catalogNavigation.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-            BuildableName = "day10_1_2_3_CatalogApp.app"
+            BuildableName = "day11_2_6_9_catalogNavigation.app"
             BlueprintName = "day11_2_6_9_catalogNavigation"
             ReferencedContainer = "container:day11_2_6_9_catalogNavigation.xcodeproj">
          </BuildableReference>

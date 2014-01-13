@@ -17,7 +17,6 @@
 #import "ProductDetailViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource, CartDelegate>
-@property NSMutableArray *items;
 @property (weak, nonatomic) IBOutlet UITableView *table;
 @property (strong, nonatomic) Cart *cart;
 
@@ -116,7 +115,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.cart = [[Cart alloc] init];
-    self.cart.items = [[NSMutableArray alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
