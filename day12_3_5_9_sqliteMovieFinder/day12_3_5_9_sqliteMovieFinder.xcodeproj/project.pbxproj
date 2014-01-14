@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A8ADD91884CBF500592DB1 /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00A8ADD81884CBF500592DB1 /* db.sqlite */; };
 		00E3BE131883DCDA0058593A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3BE121883DCDA0058593A /* Foundation.framework */; };
 		00E3BE151883DCDA0058593A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3BE141883DCDA0058593A /* CoreGraphics.framework */; };
 		00E3BE171883DCDA0058593A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E3BE161883DCDA0058593A /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A8ADD81884CBF500592DB1 /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
 		00E3BE0F1883DCDA0058593A /* day12_3_5_9_sqliteMovieFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day12_3_5_9_sqliteMovieFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E3BE121883DCDA0058593A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00E3BE141883DCDA0058593A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +121,7 @@
 		00E3BE181883DCDA0058593A /* day12_3_5_9_sqliteMovieFinder */ = {
 			isa = PBXGroup;
 			children = (
+				00A8ADD81884CBF500592DB1 /* db.sqlite */,
 				00E3BE211883DCDA0058593A /* AppDelegate.h */,
 				00E3BE221883DCDA0058593A /* AppDelegate.m */,
 				00E3BE241883DCDA0058593A /* Main.storyboard */,
@@ -240,6 +243,7 @@
 				00E3BE2B1883DCDA0058593A /* Images.xcassets in Resources */,
 				00E3BE1D1883DCDA0058593A /* InfoPlist.strings in Resources */,
 				00E3BE261883DCDA0058593A /* Main.storyboard in Resources */,
+				00A8ADD91884CBF500592DB1 /* db.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +474,7 @@
 				00E3BE431883DCDA0058593A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00E3BE441883DCDA0058593A /* Build configuration list for PBXNativeTarget "day12_3_5_9_sqliteMovieFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				00E3BE461883DCDA0058593A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
