@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-               BuildableName = "day11_2_7_6_catalogTabViewController.app"
+               BuildableName = "day12_2_7_6_catalogTabViewController.app"
                BlueprintName = "day12_2_7_6_catalogTabViewController"
                ReferencedContainer = "container:day12_2_7_6_catalogTabViewController.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0015BDA6187E7CB0007A96B4"
-               BuildableName = "day11_2_7_6_catalogTabViewControllerTests.xctest"
+               BuildableName = "day12_2_7_6_catalogTabViewControllerTests.xctest"
                BlueprintName = "day12_2_7_6_catalogTabViewControllerTests"
                ReferencedContainer = "container:day12_2_7_6_catalogTabViewController.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-            BuildableName = "day11_2_7_6_catalogTabViewController.app"
+            BuildableName = "day12_2_7_6_catalogTabViewController.app"
             BlueprintName = "day12_2_7_6_catalogTabViewController"
             ReferencedContainer = "container:day12_2_7_6_catalogTabViewController.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-            BuildableName = "day11_2_7_6_catalogTabViewController.app"
+            BuildableName = "day12_2_7_6_catalogTabViewController.app"
             BlueprintName = "day12_2_7_6_catalogTabViewController"
             ReferencedContainer = "container:day12_2_7_6_catalogTabViewController.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0015BD85187E7CB0007A96B4"
-            BuildableName = "day11_2_7_6_catalogTabViewController.app"
+            BuildableName = "day12_2_7_6_catalogTabViewController.app"
             BlueprintName = "day12_2_7_6_catalogTabViewController"
             ReferencedContainer = "container:day12_2_7_6_catalogTabViewController.xcodeproj">
          </BuildableReference>
