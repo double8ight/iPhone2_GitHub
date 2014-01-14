@@ -145,6 +145,11 @@
     
     alert.alertViewStyle = UIAlertViewStylePlainTextInput;
     alert.tag = 2;
+    
+    UITextField *textField = [alert textFieldAtIndex:0];
+    movie *one = [data objectAtIndex:indexPath.row];
+    textField.text = one.title;
+    
     rowid = indexPath.row;
     
     [alert show];
