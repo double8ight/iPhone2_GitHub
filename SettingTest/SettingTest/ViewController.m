@@ -23,7 +23,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(defaultsChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
     
     [self openDB];
     [self selectMessages];
@@ -35,21 +35,31 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)viewDidAppear:(BOOL)animated
-{
+- (void)defaultsChanged:(NSNotification *)notification {
+    NSLog(@"CHANGE");
+    [self refreshName];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
+    [self refreshName];
+}
+
+- (void)refreshName {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *name = [defaults objectForKey:@"name_preference"];
     
     NSLog(@"name %@", name);
     self.nameField.text = name;
-    
-    [defaults synchronize];
 }
 
--(BOOL)textFieldShouldReturn:(UITextField *)textField
-{
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    NSString *name = textField.text;
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:name forKey:@"name_preference"];
+    [defaults synchronize];
+    
     [textField resignFirstResponder];
     return YES;
 }
