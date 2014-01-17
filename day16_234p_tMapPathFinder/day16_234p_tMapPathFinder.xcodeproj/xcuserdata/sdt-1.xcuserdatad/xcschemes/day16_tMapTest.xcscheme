@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00B881891888BAED0097F39F"
-               BuildableName = "day16_tMapTest.app"
+               BuildableName = "day16_234p_tMapPathFinder.app"
                BlueprintName = "day16_234p_tMapPathFinder"
                ReferencedContainer = "container:day16_234p_tMapPathFinder.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00B881AA1888BAED0097F39F"
-               BuildableName = "day16_tMapTestTests.xctest"
+               BuildableName = "day16_234p_tMapPathFinderTests.xctest"
                BlueprintName = "day16_234p_tMapPathFinderTests"
                ReferencedContainer = "container:day16_234p_tMapPathFinder.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00B881891888BAED0097F39F"
-            BuildableName = "day16_tMapTest.app"
+            BuildableName = "day16_234p_tMapPathFinder.app"
             BlueprintName = "day16_234p_tMapPathFinder"
             ReferencedContainer = "container:day16_234p_tMapPathFinder.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00B881891888BAED0097F39F"
-            BuildableName = "day16_tMapTest.app"
+            BuildableName = "day16_234p_tMapPathFinder.app"
             BlueprintName = "day16_234p_tMapPathFinder"
             ReferencedContainer = "container:day16_234p_tMapPathFinder.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "00B881891888BAED0097F39F"
-            BuildableName = "day16_tMapTest.app"
+            BuildableName = "day16_234p_tMapPathFinder.app"
             BlueprintName = "day16_234p_tMapPathFinder"
             ReferencedContainer = "container:day16_234p_tMapPathFinder.xcodeproj">
          </BuildableReference>

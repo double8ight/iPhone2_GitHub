@@ -27,7 +27,7 @@
     _mapView = [[TMapView alloc] initWithFrame:CGRectMake(10, 80, 300, 300)];
     [_mapView setSKPMapApiKey:@"91799d0b-b00a-32a9-84f0-6f409417cf4c"];
     _mapView.clipsToBounds = YES;
-    [_mapView setZoomLevel:19];
+    //[_mapView setZoomLevel:12];
     [self.view addSubview:_mapView];
     
     
